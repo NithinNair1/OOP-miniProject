@@ -13,12 +13,16 @@ The Player can select from a variety of difficulty levels:
 
 ## Guide
 
-. . . \n
-. . . \n
-. . . \n
+. . .
+
+. . .
+
+. . .
 
 Such a map would be shown to the player and the player can select in the following format for given map size..
 
 [1 1] [1 2] [1 3]
+
 [2 1] [2 2] [2 3]
+
 [3 1] [3 2] [3 3]
