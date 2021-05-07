@@ -1,14 +1,24 @@
-## Getting Started
+## Stopping Adolg
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Stopping Adolf is a game where the Player is a strategist, and is required to enter coordinates of the Bunker of the Dictator to stop his advance and violence.
 
-## Folder Structure
+## Difficulty Levels
 
-The workspace contains two folders by default, where:
+The Player can select from a variety of difficulty levels:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `Sepoy`: 2x2 Map size
+- `Lieutenant`: 3x3 Map size
+- `Colonel`: 4x4 Map size
+- `Field Marshal`: 5x5 Map size
 
-## Dependency Management
+## Guide
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+. . .
+. . .
+. . .
+
+Such a map would be shown to the player and the player can select in the following format for given map size..
+
+[1 1] [1 2] [1 3]
+[2 1] [2 2] [2 3]
+[3 1] [3 2] [3 3]
