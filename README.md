@@ -19,7 +19,7 @@ The Player can select from a variety of difficulty levels:
 
 . . .
 
-Such a map would be shown to the player and the player can select in the following format for given map size..
+👆🏻 Such a map would be shown to the player and the player can select in the following format for given map size..
 
 [1 1] [1 2] [1 3]
 
