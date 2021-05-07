@@ -6,8 +6,8 @@ public class App {
   public static void main(String args[]){
     Scanner sc1=new Scanner(System.in);
     int opt=1,diff,bunker[],bombs,flag=0,gflag=0,x,y,prev1=0,prev2=0,wins=0,loses=0,grid;
-    System.out.println("\nSTOPPING ADOLF");
     while(opt!=5){
+    System.out.println("\nSTOPPING ADOLF");
       
       System.out.print("\n1.)Play \n2.)About \n3.)Scores \n4.)Guide \n5.)Quit \nEnter Choice: ");
       opt=sc1.nextInt();
@@ -29,8 +29,8 @@ public class App {
             grid=5;
             }
             else{
-            System.out.println("Since you Didn't report your Ranking The Fuhrer has setup a bigger than field marshal trap...\nLord Save thee.");
-            grid=6;
+            System.out.println("\nSince you Didn't report your ranking properly,\nThe Fuhrer has setup a much more difficult trap...\nHitting the bunker has now become close to impossible");
+            grid=diff;
             }
             Adolf ad1=new Adolf();
             bunker=ad1.selectBunker(grid);
@@ -38,7 +38,8 @@ public class App {
             bombs=3;
             prev1=prev2=0;
             gflag=0;
-            while(bombs!=0 || flag==1){
+            flag=0;
+            while(bombs!=0 && flag!=1){
             
             if(gflag==0){
             Draw d1=new Draw(grid);
@@ -46,7 +47,8 @@ public class App {
             }
             else{
             Draw d1=new Draw(grid,prev1,prev2);
-            System.out.println("Not Quite on Target, You have "+bombs+" bombs left.");
+            String check=bombs>1?"bombs":"bomb";
+            System.out.println("Not Quite on Target, You have "+bombs+" "+check+" left.");
             }
 
             System.out.print("\nEnter Coordinates(x,y) to be attacked: ");
@@ -72,7 +74,8 @@ public class App {
             System.out.println("");
             ad1.draw();
             System.out.println("");
-            System.out.println("YOU WON, WITH "+bombs+" bombs to spare.");
+            String check=bombs>1?"bombs":"bomb";
+            System.out.println("YOU WON, WITH "+bombs+" "+check+" to spare.");
             wins++;
 
             }
