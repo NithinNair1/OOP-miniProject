@@ -1,6 +1,8 @@
-## Stopping Adolf
+![BBLOGO_img](Extras/BB.png "BB Logo")
 
-Stopping Adolf is a game where the Player is a strategist, and is required to enter coordinates of the Bunker of the Dictator to stop his advance and violence.
+## Busting Bunkers
+
+Busting Bunkers is a game where the Player is a strategist, and is required to enter coordinates of the Bunker of the Dictator to stop his advance and violence.
 
 ## Difficulty Levels
 
@@ -13,11 +15,7 @@ The Player can select from a variety of difficulty levels:
 
 ## Guide
 
-. . .
-
-. . .
-
-. . .
+![Lieutenant_MAP](Extras/map1L.png "Lieutenant Map Example")
 
 👆🏻 Such a map would be shown to the player and the player can select in the following format for given map size..
 

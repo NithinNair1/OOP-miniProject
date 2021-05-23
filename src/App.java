@@ -7,7 +7,7 @@ public class App {
     Scanner sc1=new Scanner(System.in);
     int opt=1,diff,bunker[],bombs,flag=0,gflag=0,x,y,prev1=0,prev2=0,wins=0,loses=0,grid;
     while(opt!=5){
-    System.out.println("\nSTOPPING ADOLF");
+    System.out.println("\nBusting Bunkers");
       
       System.out.print("\n1.)Play \n2.)About \n3.)Scores \n4.)Guide \n5.)Quit \nEnter Choice: ");
       opt=sc1.nextInt();
@@ -91,13 +91,26 @@ public class App {
 
             break;
 
-      case 2: System.out.println("\nABOUT COMES HERE\n"); break;
+      case 2:
+      System.out.println("\nThis is a Mini-Project designed for Subject OOP, for year 2020-21\n"); 
+      System.out.println("\nBy Students: Nithin Nair, Sterlin Peter, Sahil Takbhate and Prathmesh Naik\n");
+      break;
 
       case 3: System.out.println("\nWON: "+wins+"\nLOST: "+loses); break;
 
-      case 4:System.out.println("GUIDE COMES HERE"); break;
+      case 4:
+      System.out.println("It is 1944, You are on a mission to save the planet from the dangerous Dictator's wrath \n");
+      System.out.println(". . .");
+      System.out.println(". . .");
+      System.out.println(". . .\n");
+      System.out.println("A map with coordinates is shown above, you must input the coordinates like:- \n");
+      System.out.println("'1 1' '1 2' '1 3'");
+      System.out.println("'2 1' '2 2' '2 3'");
+      System.out.println("'3 1' '3 2' '3 3'\n");
+      System.out.println("You have to enter the coordinates to eliminate the bunker in that position....\nGuess wisely...\n");
+      break;
 
-      case 5: System.out.println("");break;
+      case 5: System.out.println("\n");break;
 
       default: System.out.println("INVALID CODE, You can get court-martialed for this...");
 
